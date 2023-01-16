@@ -140,6 +140,7 @@ article {
 }
 #footer-content {
     padding-bottom: 1rem;
+    position: relative;
 }
 footer {
     position: absolute;
