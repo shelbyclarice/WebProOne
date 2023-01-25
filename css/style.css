@@ -9,7 +9,7 @@ div {
 }
 body {
     margin: 0px;
-    background-image: url('file:///C:/Users/shelbyclarice/Documents/GitHub/Week%201/WebProOne/images/background.png');
+    background-image: url(".file:///C:/Users/shelbyclarice/Documents/GitHub/Week%201/WebProOne/images/background.PNG");
     background-size: 100% 100%;
     background-position: left left;
 }
