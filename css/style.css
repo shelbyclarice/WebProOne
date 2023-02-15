@@ -11,77 +11,79 @@ body {
     margin: 0px;
     background-size: 100% 100%;
     background-position: left left;
+    height: 100%;
 }
 header {
     position: relative;
     height: 80px;
-    background-color:#186180;
+    background-color:#0F0F0F;
     color: white;
     text-align: center;
     padding: 5px;
 }
-#inside-header {
+#navbar {
     position: relative;
     display: flex;
     justify-content:space-between;
-    max-width: 1350px;
+    max-width: 1120px;
     height: 625px;
     margin: 0 auto;
 }
-#image {
-    position: absolute;
-    float: left;
-    margin: 0px;
+a:link {
+    color: #E6E6E6;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #E6E6E6;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #CF0210;
+    background-color: transparent;
+    text-decoration;
+}
+a:active {
+    color: #CF0210;
+    background-color: transparent;
+    text-decoration: underline;
 }
 h1 {
     font-family: roboto, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 40px;
-    margin: 0px;
-    padding-right: 110px;
-    padding-top: 10px;
+    font-size: 1.3vw;
+    margin-top: 20px;
     letter-spacing: 2px;
     color: e7f5f5;
+    border: 3px solid #CF0210;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 2px;
+    
 }
 h2 {
     font-family: roboto, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.3vw;
     float: left;
     margin-left: 63px;
     margin-top: 26px;
-    letter-spacing: 1px;
-    color: rgb(233, 233, 233);
+    color: #E6E6E6;
     
 }
 #row {
     position: relative;
     display: flex;
+    flex-direction: row;
     justify-content:center;
     max-width: 2500px;
     height: 625px;
     margin: 0 auto;
     
-}
-#col1 {
-    background-color:rgb(255, 255, 255);
-    width: 240px;
-    height: 560px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px #bbbbbb;
-    margin-right: 25px;
-    
-}
-#flex-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    gap: 12px 10px;
-    justify-content: space-evenly;
-    align-items: center;
 }
 button {
     font-family: roboto, sans-serif;
@@ -91,155 +93,97 @@ button {
     padding: 5px 15px;
     letter-spacing: 1px;
 }
-#col2 {
-    background-color: rgb(255, 255, 255);
-    width: 625px;
+#col1 {
+    width: 770px;
     height: 560px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px #bbbbbb;
 }
 h3{
     font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 30px; 
-    text-align: center;
-    color: #24326B;
+    font-size: 70px; 
+    text-align: left;
+    color: #E6E6E6;
+    line-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 h4 {
     font-family: roboto, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 20px; 
     text-align: left;
-    color: #24326B;
-    letter-spacing: 1px;
+    color: #E6E6E6;
+    margin-bottom: 2vh;
 }
 p {
     font-family: 'Lora', serif;
     font-weight: 300;
     font-style: normal;
-    color: #186180;
+    color: #E6E6E6;
     letter-spacing: .7px;
     line-height: 20px;
-    margin-top: 13px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 35vw;
+    
 }
-#content {
-    display: flex;
-}
-#image-left {
-    float: left;
-    display: inline-block;
-}
-#text-right {
-    float: right;
-    width: 100;
-    display: inline-block;
-    padding-left: 30px;
+button {
+    background-color: #CF0210;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 50px;
+    border:none;
+    margin-top: 20px;
 }
 article {
     display: inline-block;
     text-align: left;
 }
-#col3 {
+#co {
     margin-left: 25px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
 }
+#col2 {
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#box {
+    background-color:#0F0F0F;
+    opacity: 65%;
+    width: 350px;
+    height: 177px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
 h6 {
     font-family: roboto, sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
-    font-size: 20px; 
+    font-size: 40px; 
     text-align: center;
-    color: #24326B;
+    vertical-align: center;
+    color: #E6E6E6;
     letter-spacing: 1px;
-    margin-top: 25px;
-    margin-bottom: 0px;
-}
-#box1 {
-    background-color:rgb(255, 255, 255);
-    width: 350px;
-    height: 177px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px #bbbbbb;
-    margin-bottom: 15px;
-}
-#social-media {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 30px;
-}
-#box2 {
-    background-color:rgb(255, 255, 255);
-    width: 350px;
-    height: 177px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px #bbbbbb;
-    margin-bottom: 15px;
-}
-#link-box {
-    background-color:#186180;
-    border-radius: 5px;
-    margin: 20px 60px 0px 60px;
-    padding: 10px 0px 10px 0px;
-}
-a:link {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:hover {
-    color: rgb(233, 233, 233);
-    background-color: transparent;
-    text-decoration: underline;
-}
-  
-a:active {
-    color: rgb(233, 233, 233);
-    background-color: transparent;
-    text-decoration: underline;
-}
-#box3 {
-    background-color:rgb(255, 255, 255);
-    width: 350px;
-    height: 177px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px #bbbbbb;
-    margin-bottom: 15px;
-}
-#resource1 {
-    background-color:#186180;
-    border-radius: 5px;
-    margin: 15px 100px 0px 100px;
-    padding: 5px 0px 5px 0px;
-}
-#resource2 {
-    background-color:#186180;
-    border-radius: 5px;
-    margin: 10px 100px 0px 100px;
-    padding: 5px 0px 5px 0px;
+    margin: 55px auto auto auto;
 }
 footer {
-    position: fixed;
+    position: absolute;
+    padding-top: 40px;
     bottom: 0;
     width: 100%;
-    height: 30px;   /* Height of the footer */
-    background: #24326b;
+    height: auto;  /* Height of the footer */
+    background: #0F0F0F;
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-bottom: 10px;
 
 }
 h5 {
@@ -247,7 +191,7 @@ h5 {
     font-weight: 500;
     font-style: normal;
     font-size: 12px;
-    color: rgb(233, 233, 233);
+    color: #E6E6E6;
     text-align: center;
     padding-top: 15px;
     letter-spacing: 2.5px;
