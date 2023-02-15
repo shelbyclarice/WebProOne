@@ -150,10 +150,13 @@ footer {
     width: 100%;
   }
 
+  header .hidden {
+    display: none;
+  }
+
   header #branding,
   header nav,
   header nav li {
-    display: none;
   }
 
   header {
