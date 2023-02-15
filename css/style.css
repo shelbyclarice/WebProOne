@@ -154,9 +154,13 @@ footer {
     display: none;
   }
 
-  header #branding,
+  header h1 {
+    float: left;
+  }
+
   header nav,
   header nav li {
+    display: none;
   }
 
   header {
