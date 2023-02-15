@@ -57,7 +57,7 @@ h1 {
     font-size: 1.3vw;
     margin-top: 20px;
     letter-spacing: 2px;
-    color: e7f5f5;
+    color: #e7f5f5;
     border: 3px solid #CF0210;
     padding-left: 120px;
     padding-right: 120px;
@@ -179,7 +179,7 @@ footer {
     padding-top: 40px;
     bottom: 0;
     width: 100%;
-    height: auto;  /* Height of the footer */
+    height: auto;
     background: #0F0F0F;
     justify-content: center;
     align-items: center;
