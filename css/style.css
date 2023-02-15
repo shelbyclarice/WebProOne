@@ -88,6 +88,7 @@ header a:hover {
   height: 40px;
   border: none;
   color: white;
+  width: 200px;
 }
 
 #showcase button h2 {
@@ -105,4 +106,61 @@ header a:hover {
   text-align: center;
   width: 30%;
   padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #35242a;
+  text-align: center;
+}
+
+/* Media Queries Landscape*/
+@media (max-width: 800px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  #showcase h1,
+  #showcase p,
+  #showcase button {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+}
+
+/* Media Queries Portriat*/
+@media (max-width: 600px) {
+  #boxes .box,
+  #showcase h1,
+  #showcase p,
+  #showcase button {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header #branding,
+  header nav,
+  header nav li {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
 }
