@@ -18,9 +18,12 @@
         color: white;
       }
     </style>
-  </head>
-
-  <body>
+    <script type="text/javascript">
+      /*Inches to Centimeters Formula Converter*/
+      function converter(valNum) {
+        document.getElementById("outputCm").innerHTML = valNum / 0.3937;
+      }
+    </script>
     <script type="text/javascript">
       /* User inputs data. Declaration of two or more variables and demonstrate variable assignment. */
       var my_variable_1, my_variable_2;
@@ -38,26 +41,6 @@
       );
 
       document.write("<br><h3> my_variable_2 is " + my_variable_2 + "</h3>");
-    </script>
-
-    <!--HTML to convert Inches to Centimeters-->
-    <p>
-      <label>Inches</label>
-      <input
-        id="inputIn"
-        type="number"
-        placeholder="Inches"
-        oninput="converter(this.value)"
-        onchange="converter(this.value)"
-      />
-    </p>
-    <p>Centimeters: <span id="outputCm"></span></p>
-
-    <script type="text/javascript">
-      /*Inches to Centimeters Formula Converter*/
-      function converter(valNum) {
-        document.getElementById("outputCm").innerHTML = valNum / 0.3937;
-      }
     </script>
     <script type="text/javascript">
       /*Use if and else conditional operators meaningfully*/
@@ -80,5 +63,20 @@
         document.write("<body bgcolor='#808080'>");
       }
     </script>
+  </head>
+
+  <body>
+    <!--HTML to convert Inches to Centimeters-->
+    <p>
+      <label>Inches</label>
+      <input
+        id="inputIn"
+        type="number"
+        placeholder="Inches"
+        oninput="converter(this.value)"
+        onchange="converter(this.value)"
+      />
+    </p>
+    <p>Centimeters: <span id="outputCm"></span></p>
   </body>
 </html>
