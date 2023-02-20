@@ -18,27 +18,6 @@
         color: white;
       }
     </style>
-    <script type="text/javascript">
-      /*Use if and else conditional operators meaningfully*/
-      var user_input;
-
-      //find out if they like the color blue.
-      user_input = prompt("Do you like the color blue?");
-
-      if (user_input == "yes") {
-        /*if the user likes the color blue. so the background color will be changed to blue*/
-        alert(
-          "You like the color blue, so the background color will be changed to blue."
-        );
-        document.write("<body bgcolor='#3388ff'>");
-      } else {
-        /*User does not like the color blue, so the background color will be grey. */
-        alert(
-          "You do not like the color blue. You will get a grey background color."
-        );
-        document.write("<body bgcolor='#808080'>");
-      }
-    </script>
   </head>
 
   <body>
@@ -78,6 +57,27 @@
       /*Inches to Centimeters Formula Converter*/
       function converter(valNum) {
         document.getElementById("outputCm").innerHTML = valNum / 0.3937;
+      }
+    </script>
+    <script type="text/javascript">
+      /*Use if and else conditional operators meaningfully*/
+      var user_input;
+
+      //find out if they like the color blue.
+      user_input = prompt("Do you like the color blue?");
+
+      if (user_input == "yes") {
+        /*if the user likes the color blue. so the background color will be changed to blue*/
+        alert(
+          "You like the color blue, so the background color will be changed to blue."
+        );
+        document.write("<body bgcolor='#3388ff'>");
+      } else {
+        /*User does not like the color blue, so the background color will be grey. */
+        alert(
+          "You do not like the color blue. You will get a grey background color."
+        );
+        document.write("<body bgcolor='#808080'>");
       }
     </script>
   </body>
